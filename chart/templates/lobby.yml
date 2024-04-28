@@ -3,7 +3,7 @@ kind: GameMode
 metadata:
   name: lobby
 spec:
-  image: "ghcr.io/community-sourced-minecraft/game-servers:operated"
+  image: "ghcr.io/community-sourced-minecraft/game-servers:operated@sha256:d03abf9fe4691f3033c00aa06df10733a6671c807428425d41cf5f65a6abb8ac"
   # TODO: Autoscale these pods
   replicas: 3
   networkRef: csmc
