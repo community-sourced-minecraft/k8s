@@ -5,6 +5,6 @@ metadata:
 spec:
   image: "ghcr.io/community-sourced-minecraft/game-servers:operated"
   # TODO: Autoscale these pods
-  replicas: 3
+  replicas: 1
   networkRef: csmc
   args: ["arena"]
