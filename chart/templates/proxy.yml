@@ -1,0 +1,7 @@
+apiVersion: csmc.devminer.xyz/v1alpha1
+kind: Proxy
+metadata:
+  name: proxy
+spec:
+  image: "ghcr.io/community-sourced-minecraft/proxy:operated"
+  networkRef: csmc

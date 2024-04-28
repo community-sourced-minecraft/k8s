@@ -1,0 +1,5 @@
+apiVersion: csmc.devminer.xyz/v1alpha1
+kind: Network
+metadata:
+  name: csmc
+spec: {}
