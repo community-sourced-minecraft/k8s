@@ -3,5 +3,5 @@ kind: Proxy
 metadata:
   name: proxy
 spec:
-  image: "ghcr.io/community-sourced-minecraft/proxy:operated@sha256:7a15facf9810af8f653f0f6f6129b45f1520f95ab2ffa97957c75796be7e0447"
+  image: "ghcr.io/community-sourced-minecraft/proxy:operated@sha256:4e824cfc04cfb76ee1d1a48fee1f8071fc47dea60c5e6521f42b4b2d7c99bdf6"
   networkRef: csmc
