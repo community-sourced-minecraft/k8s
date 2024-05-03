@@ -3,7 +3,7 @@ kind: GameMode
 metadata:
   name: arena
 spec:
-  image: "ghcr.io/community-sourced-minecraft/game-servers:operated@sha256:18f54f68555ae44890761f2a6babe73e138d109c32c6a6e202fe81c8ae011ee8"
+  image: "ghcr.io/community-sourced-minecraft/game-servers:main@sha256:5cb3437e9e1470ad9f777aefde62f59a92eae7e05eed4dd133df13f9a5044f62"
   # TODO: Autoscale these pods
   replicas: 1
   networkRef: csmc
