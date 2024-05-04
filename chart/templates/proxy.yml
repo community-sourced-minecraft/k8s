@@ -5,6 +5,7 @@ metadata:
 spec:
   image: "ghcr.io/community-sourced-minecraft/proxy:main@sha256:a28ba05c997326476047596d1e5d18a31924f8daa78964d93a775f4c303e0af1"
   networkRef: csmc
+  port: 30000
 
 ---
 apiVersion: csmc.devminer.xyz/v1alpha1
@@ -14,3 +15,4 @@ metadata:
 spec:
   image: "ghcr.io/community-sourced-minecraft/proxy:refactor-generalize-hosting@sha256:adf62d93e641f3de7ed0d50a216dfc7fc17d1958ffc9130a6f82fd333ce77983"
   networkRef: csmc
+  port: 30001
