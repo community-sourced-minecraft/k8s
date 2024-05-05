@@ -13,6 +13,6 @@ kind: Proxy
 metadata:
   name: proxy-experimental
 spec:
-  image: "ghcr.io/community-sourced-minecraft/proxy:refactor-generalize-hosting@sha256:fd64430ae8e29084f3d84f881032f56b0a421e677075ccdb07298c88a364f902"
+  image: "ghcr.io/community-sourced-minecraft/proxy:refactor-generalize-hosting@sha256:b3b560ab65e7c7e34e5a6883708e4fce7ae4f7c5dcae971418e2b089480a7896"
   networkRef: csmc
   port: 30001
