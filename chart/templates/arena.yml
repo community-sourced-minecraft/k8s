@@ -19,3 +19,5 @@ spec:
   replicas: 1
   networkRef: csmc
   args: ["arena-beta"]
+  env:
+    JAVA_OPTS: "-Xmx450M -Xms256M"
