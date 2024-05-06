@@ -8,3 +8,14 @@ spec:
   replicas: 1
   networkRef: csmc
   args: ["arena"]
+---
+apiVersion: csmc.devminer.xyz/v1alpha1
+kind: GameMode
+metadata:
+  name: arena-beta
+spec:
+  image: "ghcr.io/community-sourced-minecraft/game-servers:main@sha256:35dad3e9c4b4469cea7cb871bb77e2e09a7271dad3a041588aface642caf9c11"
+  # TODO: Autoscale these pods
+  replicas: 1
+  networkRef: csmc
+  args: ["arena-beta"]
