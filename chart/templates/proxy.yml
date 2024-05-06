@@ -3,7 +3,7 @@ kind: Proxy
 metadata:
   name: proxy
 spec:
-  image: "ghcr.io/community-sourced-minecraft/proxy:main@sha256:dd5e03cf3635b588fb18f38b1b3d7b82d6f7b5c86d09f3de27f5c68d2b4f0c8a"
+  image: "ghcr.io/community-sourced-minecraft/proxy:main@sha256:f65ec75357f8dc16176c9cb5e20df96c125b3788939e693586fbe86faae612ce"
   networkRef: csmc
   port: 30000
 
@@ -13,6 +13,6 @@ kind: Proxy
 metadata:
   name: proxy-experimental
 spec:
-  image: "ghcr.io/community-sourced-minecraft/proxy:refactor-generalize-hosting@sha256:8fdc826eb7d801029fe145228e1ac5abb2c3dbb4d76f6c94058c76bfaac03e4d"
+  image: "ghcr.io/community-sourced-minecraft/proxy:refactor-generalize-hosting@sha256:f65ec75357f8dc16176c9cb5e20df96c125b3788939e693586fbe86faae612ce"
   networkRef: csmc
   port: 30001
